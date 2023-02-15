@@ -1,0 +1,47 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 50px;
+    border: 1px solid white;
+    margin-left: 10%;
+}
+h1{
+    padding: 50px;
+    color: white;
+    border:2px solid white;
+    border-radius: 5px;
+    margin: 0 0 0 150px;
+}
+img{
+    object-fit: fill;
+    height: 100%;
+    width:100%;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+}
+
+header{
+    margin-right: 60%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    height: 100%;
+    width: 150px;
+    color:white;
+}
+nav a{
+    color: white;
+}
+nav li{
+    padding: 30px 0;
+    font-size: large;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    list-style: none;
+    
+}

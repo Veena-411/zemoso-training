@@ -1,0 +1,67 @@
+*{
+    font-family: cursive;
+}
+
+h1,h2{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #cc3300;
+    color: white;
+}
+
+body{
+    
+    background-color: white;
+}
+.info{
+    text-align: center;
+    background-color: white;
+    color:#cc3300
+}
+
+.skill, .info{
+    color:#cc3300 ;
+    width: 40%;
+    margin: 0% 30%;
+    background-color: #ff8c66;
+    font-weight: bold;
+}
+
+.container {
+    
+    width: 90%; 
+    background-color: #ddd; 
+  }
+  .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  }
+  
+  .html {width: 90%; background-color: #cc3300;} 
+  .css {width: 80%; background-color: #cc3300;} 
+  .js {width: 65%; background-color: #cc3300;} 
+  .php {width: 80%; background-color: #cc3300;} 
+
+header{
+    
+    margin-right: 60%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #cc3300;
+    height: 100%;
+    width: 200px;
+    color:white;
+}
+nav a{
+    color: white;
+}
+nav li{
+    padding: 30px;
+    font-size: large;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    list-style: none;
+}

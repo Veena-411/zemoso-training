@@ -1,0 +1,52 @@
+html,body{
+   height: 100%;
+}
+
+main{
+    background-image: url("../images/background.png");
+    margin-left: 250px;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: contain;
+    background-position: right;
+}
+header{
+    margin-right: 60%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #0066cc;
+    height: 100%;
+    width: 300px;
+    color:white;
+}
+h1,p,button{
+    position: relative;
+    top: 250px;
+    left: 150px;
+    font-family: "Gill Sans", sans-serif;
+    color: #0066cc;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0066cc;
+    color: white;
+}
+
+header img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+a{
+    color: white;
+}
+ 
+li{
+    padding: 30px;
+    font-size: large;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    list-style: none;
+}
