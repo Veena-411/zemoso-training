@@ -1,19 +1,38 @@
 import java.util.*;
 public class job_location_mapping
 {
+	static boolean checkvalid(String input)
+	{
+		
+		 for(int j=0;j<input.length();j++)
+                    {
+                            if(input.charAt(j)=='H' || input.charAt(j)=='C' || input.charAt(j)=='B' || input.charAt(j)==' ')
+                                    continue;
+                            else{
+				    System.out.println("Enter valid input");
+                                    return false;
+                            }
+                    }
+		 return true;
+
+	}
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter no.of candidates");
 		int n = Integer.parseInt(in.nextLine());
 		String[][] pref = new String[n][3];
-        	System.out.println("Enter preferences");
+        	System.out.println("Enter 3 preferences[H/C/B] each separated space:");
 		for(int i=0;i<n;i++)
 		{
-			System.out.print(i+": ");
-		    String[] input = in.nextLine().split(" ");
-		    pref[i][0]=input[0];
-		    pref[i][1]=input[1];
-		    pref[i][2]=input[2];
+			String input;
+			do{System.out.print(i+": ");
+		         input = in.nextLine();
+			}while(!checkvalid(input));
+		    String[] inputA = input.split(" ");
+
+		    pref[i][0]=inputA[0];
+		    pref[i][1]=inputA[1];
+		    pref[i][2]=inputA[2];
 		}
 
 		HashMap<String,ArrayList<Integer>> map = new HashMap<>();
