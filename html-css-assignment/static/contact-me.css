@@ -1,0 +1,68 @@
+*{
+    padding: 10px 0px;
+}
+.social{
+    background-color: purple;
+    height: 60px;
+    width: 40%;
+    margin: 0% 30%;
+    display: flex;
+    justify-content: center;
+}
+label,input,textarea{
+    display: block;
+    margin: 0% 20%;
+    width:60%;
+    border-radius: 10px;
+}
+img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 70px;
+}
+
+form{
+    width:40%;
+    margin: 0% 30%;
+    text-align: center;
+    background-color: #d580ff;
+}
+h1,p{
+    margin: 0% 30%;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    background-color: purple;
+    color: white;
+}
+p{
+    background-color: #d580ff;
+}
+input.submit{
+      width: 150px;
+      margin: 5% 20%;
+      background-color: purple;
+    color: white;
+}
+
+header{
+    margin-right: 60%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: purple;
+    height: 100%;
+    width: 200px;
+    color:white;
+}
+nav a{
+    color: white;
+}
+nav li{
+    padding: 30px;
+    font-size: large;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    list-style: none;
+}
