@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Illustrator</title>
+</head>
+<body>
+    <button onclick="calcScore()">Click</button>
+    <p>Click the button and check local score and session score</p>
+    <p id="local-score"></p>
+    <p id="session-score"></p>
+</body>
+<script>
+        if(localStorage.score){
+        document.getElementById("local-score").innerHTML="Local score = "+localStorage.score;}
+        else{
+            localStorage.score=0;
+        document.getElementById("local-score").innerHTML="Local score = "+localStorage.score;
+        }
+        if(sessionStorage.score){
+        document.getElementById("session-score").innerHTML="Session score = "+sessionStorage.score;}
+        else{
+            sessionStorage.score=0;
+        document.getElementById("session-score").innerHTML="Session score = "+sessionStorage.score;
+        }
+    function calcScore(){
+        localStorage.score=Number(localStorage.score)+1;
+        sessionStorage.score=Number(sessionStorage.score)+1;
+        document.getElementById("local-score").innerHTML="Local score = "+localStorage.score;
+        document.getElementById("session-score").innerHTML="Session score = "+sessionStorage.score;
+    }
+</script>
+</html>
