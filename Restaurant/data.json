@@ -1,0 +1,78 @@
+{
+    "Tables":[{
+        "id":"1",
+        "title":"Table-1",
+        "cost":0,
+        "total items":0
+    
+    },
+    {
+        "id":"2",
+        "title":"Table-2",
+        "cost":0,
+        "total items":0,
+        "inner-table":[]
+    },
+    {
+        "id":"3",
+        "title":"Table-3",
+        "cost":0,
+        "total items":0,
+        "inner-table":[]
+    }],
+
+    "Menu-list":[
+        {
+            "id":"m1",
+            "itemName":"Crispy Corn",
+            "cost":170.00,
+            "type":"starter"
+        },
+        {
+            "id":"m2",
+            "itemName":"Veg Manchuria",
+            "cost":150.00,
+            "type":"starter"
+        },
+        {
+            "id":"m3",
+            "itemName":"Chicken 65",
+            "cost":200.00,
+            "type":"starter"
+        },
+        {
+            "id":"m4",
+            "itemName":"Veg Biryani",
+            "cost":260.00,
+            "type":"Main Course"
+        },
+        {
+            "id":"m5",
+            "itemName":"Paneer Biryani",
+            "cost":280.00,
+            "type":"Main Course"
+        },
+        {
+            "id":"m6",
+            "itemName":"Chicken Biryani",
+            "cost":310.00,
+            "type":"Main Course"
+        },
+        {
+            "itemName":"Gulab jamun",
+            "cost":100.00,
+            "type":"Dessert"
+        },
+        {
+            "itemName":"Ras malai",
+            "cost":120.00,
+            "type":"Dessert"
+        },
+        {
+            "itemName":"Apricot Delight",
+            "cost":150.00,
+            "type":"Dessert"
+        }
+    ]
+
+}
