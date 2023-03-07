@@ -1,0 +1,145 @@
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    padding: 0 20px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+}
+#Tables{
+    width: 25%;
+    height: 100%;
+    padding-right: 20px;
+}
+
+#Menu{
+    width: 75%;
+    height: 100%;
+    padding-left: 20px;
+    border-left: 2px solid black;
+}
+#Menu input{
+    width: 50%;
+}
+
+#hide{
+    display: none;
+}
+
+div.menu-item{
+    box-shadow: 0px 15px 10px -15px #111;
+    padding: 2px;
+    border:1px solid #d1d1d1;
+    border-radius: 7px;
+    border-top: none;
+    
+}
+#Menu-new{
+    overflow: auto;
+    height: 600px;
+    
+
+}
+div.table-item{
+    box-shadow: 0px 15px 10px -15px #111;
+    padding: 2px;
+    border:1px solid #d1d1d1;
+    border-radius: 7px;
+    border-top: none;
+}
+input{
+    margin-bottom: 10px;
+}
+
+#window {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1;
+    color: black;
+  }
+
+  #window2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1;
+    color: black;
+  }
+
+  /* th,td{
+    text-align: center;
+  } */
+  /* tr{
+    display: flex;
+    justify-content: flex-end;
+  } */
+  /* table.PerformanceTable td.PerformanceCell {
+    width: 75px;
+} */
+td{
+    width: 100px;
+    text-align: center;
+}
+
+.align-right{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    background-color: blue;
+    color:white;
+}
+h4{
+    background-color: blue;
+    color:white;
+}
+#amount{
+    font-size: 50px;
+}
+
+#session-close{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+#close{
+    position: absolute;
+    right: 0;
+    top:0;
+    background-color: blue;
+    color: white;
+}
+#window2{
+    color: blue;
+}
+#done{
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+}
+.bill_w{
+    text-align: center;
+}
